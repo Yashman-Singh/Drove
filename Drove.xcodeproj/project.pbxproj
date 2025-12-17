@@ -10,9 +10,22 @@
 		50FCCAC82EF32C55008957F5 /* Drove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		50FCCAD92EF32CAC008957F5 /* Exceptions for "Drove" folder in "Drove" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 50FCCAC72EF32C55008957F5 /* Drove */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		50FCCACA2EF32C55008957F5 /* Drove */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				50FCCAD92EF32CAC008957F5 /* Exceptions for "Drove" folder in "Drove" target */,
+			);
 			path = Drove;
 			sourceTree = "<group>";
 		};
@@ -256,6 +269,10 @@
 				DEVELOPMENT_TEAM = D7H69H8CVT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Drove/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Drove uses your location to track trips while you drive, even when the app is in the background. Your location data is stored only on your device.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Drove needs your location to record your driving trips.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Drove uses motion data to detect when you're driving versus walking.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +305,10 @@
 				DEVELOPMENT_TEAM = D7H69H8CVT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Drove/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Drove uses your location to track trips while you drive, even when the app is in the background. Your location data is stored only on your device.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Drove needs your location to record your driving trips.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Drove uses motion data to detect when you're driving versus walking.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

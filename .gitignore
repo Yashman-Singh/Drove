@@ -1,0 +1,46 @@
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+.build/
+*.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.swiftpm/
+Packages/
+
+# Build artifacts
+build/
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app
+*.hmap
+
+# CocoaPods (if used later)
+Pods/
+
+# Sensitive / Personal
+*.pem
+*.p12
+*.mobileprovision
+Secrets.swift
+
+# Spec file (local reference only)
+SPEC.md
+
+# Legacy Xcode files
+*.xccheckout
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcscmblueprint
+
+# OS files
+.DS_Store
+*.swp
+*~
+
+.cursor/
