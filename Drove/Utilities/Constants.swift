@@ -26,5 +26,18 @@ enum AppConstants {
     
     // MARK: - Animation
     static let standardAnimation: Animation = .easeInOut(duration: 0.3)
+    
+    // MARK: - User Preferences
+    static let defaultVehicleIDKey = "defaultVehicleID"
+}
+
+enum Milestones {
+    static let distanceMilestones: [Double] = [1000, 5000, 10000, 25000, 50000, 100000]
+    static let stateMilestones: [Int] = [10, 25, 50]
+    static let tripMilestones: [Int] = [100, 500, 1000]
+    
+    // Fun comparisons
+    static let moonDistanceMiles: Double = 238900
+    static let marsDistanceMiles: Double = 33900000
 }
 
